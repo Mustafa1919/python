@@ -4,5 +4,3 @@ def fibo(n):
     for i in range(0,n):
         a,b=b,a+b
         print(a),
-x=int(input("Fiboneccisi hesaplanacak değeri giriniz: "))
-fibo(x)
