@@ -42,7 +42,7 @@ def sozlukDüzenle():
 
 			for i in sozlukVeri:
 				i = i.split('->')
-				kelimeler.append(i[0])
+				kelimeler.append(i[0].strip())
 				anlamlar.append(i[1])
 		return kelimeler , anlamlar
 
